@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Delaunay - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Delaunay.res" /d "NDEBUG" /d "_AFXDLL" "L:\Delaunay\Delaunay.rc"" 
+Creating temporary file "C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Delaunay.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Delaunay\ChildFrm.cpp"
+"L:\Delaunay\Delaunay.cpp"
+"L:\Delaunay\DelaunayDoc.cpp"
+"L:\Delaunay\DelaunayN2.cpp"
+"L:\Delaunay\DelaunayView.cpp"
+"L:\Delaunay\MainFrm.cpp"
+"L:\Delaunay\VoronoiAlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP3.tmp"" 
+Creating temporary file "C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Delaunay.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Delaunay\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP4.tmp"" 
+Creating temporary file "C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Delaunay.pdb" /machine:I386 /out:"Release/Delaunay.exe" 
+.\Release\ChildFrm.obj
+.\Release\Delaunay.obj
+.\Release\DelaunayDoc.obj
+.\Release\DelaunayN2.obj
+.\Release\DelaunayView.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\VoronoiAlg.obj
+.\Release\Delaunay.res
+]
+Creating command line "link.exe @"C:\DOCUME~1\�迵ȣ\LOCALS~1\Temp\RSP5.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with XT2000Lib.dll
+Compiling...
+ChildFrm.cpp
+Delaunay.cpp
+DelaunayDoc.cpp
+DelaunayN2.cpp
+L:\Delaunay\DelaunayN2.cpp(98) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(98) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(99) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(99) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(100) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(100) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(101) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(101) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(125) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(125) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayN2.cpp(125) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+DelaunayView.cpp
+L:\Delaunay\DelaunayView.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(296) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(296) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(297) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(297) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(298) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(298) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(299) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\DelaunayView.cpp(299) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+MainFrm.cpp
+VoronoiAlg.cpp
+L:\Delaunay\VoronoiAlg.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(142) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(142) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(142) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(142) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(151) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(151) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(151) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(151) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(152) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(152) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(152) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(152) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(156) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(156) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(157) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+L:\Delaunay\VoronoiAlg.cpp(157) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Delaunay.exe - 0 error(s), 43 warning(s)
+</pre>
+</body>
+</html>
